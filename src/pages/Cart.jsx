@@ -20,7 +20,7 @@ function Cart() {
       </div>
 
       {cartItems.length === 0 ? (
-        <p className="empty-cart">Der er ingen varer i kurven 🥺</p>
+        <p className="empty-cart">Cart is empty 🥺</p>
       ) : (
         <>
           {cartItems.map((product) => (
