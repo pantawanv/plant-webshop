@@ -53,7 +53,11 @@ Open a terminal and run:
 
 ### Step 4: Add the API key
 
-Create a `.env` file in the root of the project, in the same folder as `package.json`.
+The project uses the Perenual API to fetch plant data.
+
+To get an API key, visit the [Perenual API website](https://perenual.com/).
+
+After getting your API key, create a `.env` file in the root of the project, in the same folder as `package.json`.
 
 Add your Perenual API key:
 
